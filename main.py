@@ -97,8 +97,7 @@ STRINGS = {
         'order_success': "Thank you! Your order has been sent to the seller.",
         'no_orders': "No orders received yet.",
         'no_ads': "No ads posted yet."
-    }
-}def sync_db
+def sync_db
     save_db({"merchants": merchants_db, "products": products_db, "orders": orders_db, "languages": user_language})
 
 def get_text(user_id, key):
